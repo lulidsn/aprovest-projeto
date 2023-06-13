@@ -1,0 +1,38 @@
+.menuvertical{
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: auto;
+    }
+
+.menuvertical ul {
+    list-style: none;
+    }
+
+.menuvertical li{
+    padding:0px;
+    margin: 0;
+    border-bottom: #999999 thin inset;
+}
+
+.menuvertical a{
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #666666;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    }
+
+    .menuvertical :hover{
+        background-color: #999999;
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+    
+        
+.menuvertical li.btnultimo{
+    border-bottom: none;}
+        
